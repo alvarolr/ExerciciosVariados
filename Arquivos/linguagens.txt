@@ -1,3 +1,5 @@
 Python
-C++
+Java
+PHPJavaScript
+PHP
 SQL
