@@ -3,8 +3,8 @@ public class Retangulo {
     double altura;
 
     // Construtor para definir base e altura
-    public Retangulo(double b, double a) {
-        base = b;
+    public Retangulo(double base, double a) {
+        this.base = base;
         altura = a;
     }
 

@@ -5,11 +5,11 @@ public class Produto {
     int estoque;
 
     // Construtor
-    public Produto(String n, String c, double p, int e) {
-        nome = n;
-        categoria = c;
-        preco = p;
-        estoque = e;
+    public Produto(String nome, String categoria, double preco, int estoque) {
+        this.nome = nome;
+        this.categoria = categoria;
+        this.preco = preco;
+        this.estoque = estoque;
     }
 
     // Mostrar informações

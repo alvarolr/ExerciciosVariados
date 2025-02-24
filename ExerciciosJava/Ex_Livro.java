@@ -9,9 +9,9 @@ public class Livro {
     }
 
     // Construtor parametrizado
-    public Livro(String t, String a) {
-        titulo = t;
-        autor = a;
+    public Livro(String titulo, String autor) {
+        this.titulo = titulo;
+        this.autor = autor;
     }
 
     // Método para exibir informações

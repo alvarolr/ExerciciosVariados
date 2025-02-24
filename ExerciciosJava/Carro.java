@@ -5,11 +5,11 @@ public class Carro {
     String cor;
 
     // Construtor
-    public Carro(String m, String marca, int a, String c) {
-        modelo = m;
+    public Carro(String modelo, String marca, int ano, String cor) {
+        this.modelo = modelo;
         this.marca = marca;
-        ano = a;
-        cor = c;
+        this.ano = ano;
+        this.cor = cor;
     }
 
     // Método para mostrar informações

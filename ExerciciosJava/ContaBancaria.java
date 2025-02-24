@@ -5,11 +5,11 @@ public class ContaBancaria {
     String agencia;
 
     // Construtor
-    public ContaBancaria(String numero, String t, double saldoInicial, String ag) {
-        numeroConta = numero;
-        titular = t;
-        saldo = saldoInicial;
-        agencia = ag;
+    public ContaBancaria(String numero, String titular, double saldoInicial, String agencia) {
+        this.numeroConta = numero;
+        this.titular = titular;
+        this.saldo = saldoInicial;
+        this.agencia = agencia;
     }
 
     // Mostrar informações

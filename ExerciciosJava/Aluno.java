@@ -5,11 +5,11 @@ public class Aluno {
     double nota;
 
     // Construtor
-    public Aluno(String n, String m, String c, double notaInicial) {
-        nome = n;
-        matricula = m;
-        curso = c;
-        nota = notaInicial;
+    public Aluno(String nome, String matricula, String curso, double notaInicial) {
+        this.nome = nome;
+        this.matricula = matricula;
+        this.curso = curso;
+        this.nota = notaInicial;
     }
 
     // Mostrar informações
