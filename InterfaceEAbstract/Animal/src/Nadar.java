@@ -1,0 +1,3 @@
+interface Nadar {
+    void nadar();
+}
