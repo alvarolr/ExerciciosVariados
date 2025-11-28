@@ -16,7 +16,7 @@ class Conta:
         if valor > 0:
             self.saldo += valor
             print(f'Deposito de {valor} realizado')
-            print(f'Deposito de {valor} realizado')
+            print('-----------------------------------')
         else:
             print('Valor invalido para deposito')
             print('-----------------------------------')
