@@ -31,8 +31,14 @@ class Conta:
             print('-----------------------------------')
             
     
-    def transferir():
-        pass
+    def transferir(self, valor, Conta):
+        if valor > self.saldo or valor <= 0:
+            print('Transfarencia é invalida')
+            print('-------------------------')
+        else:
+            self.saldo -= valor
+            Conta.saldo += valor
+            print(f'Valor de {valor} transferido!')
     
         
 
@@ -42,4 +48,14 @@ conta1.sacar(50)
 conta1.sacar(-2)
 conta1.depositar(-50)
 conta1.depositar(50)
+conta1.mostrarInfomacoesConta()
+
+conta2 = Conta('Ricardo', 1234, 7777)
+conta2.mostrarInfomacoesConta()
+conta2.transferir(50, conta1)
+conta2.transferir(-2, conta1)
+conta2.depositar(50)
+conta2.mostrarInfomacoesConta()
+conta2.transferir(50, conta1)
+conta2.mostrarInfomacoesConta()
 conta1.mostrarInfomacoesConta()
