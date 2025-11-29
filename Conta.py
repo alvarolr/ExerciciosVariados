@@ -6,11 +6,12 @@ class Conta:
         self.saldo = 0
         
     def mostrarInfomacoesConta(self):
+        print('-----------------------------------')
         print(f'Nome do titular:{self.titular}')
         print(f'Agencia do Titular:{self.agencia}')
         print(f'Conta do Titular:{self.conta}')
         print(f'Saldo do titular:{self.saldo}')
-        print('-----------------------------------')
+        
         
     def depositar(self, valor):
         if valor > 0:
